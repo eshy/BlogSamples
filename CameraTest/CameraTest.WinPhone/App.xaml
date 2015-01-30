@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="CameraTest.WinPhone.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CameraTest.WinPhone"
+    xmlns:valueConverters="using:CameraTest.WinPhone.ValueConverters">
+    <Application.Resources>
+        <valueConverters:NativeInMemoryImageConverter x:Name="InMemoryImage"/>
+    </Application.Resources>
+</Application>
